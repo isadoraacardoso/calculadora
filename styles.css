@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    color: black;
+    padding: 18px;
+    outline: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.num{
+    width: 64px;
+    height: 67px;
+    padding: 0%;
+}
+
+.text{
+    width: 160px;
+    height: 26px;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    border: none;
+}
+
+
+.text1{
+    width: 28px;
+    height: 26px;
+    border-radius: 50%;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer; 
+    border: none;
+}
+
+.main{
+    display: inline-block;
+}
+
+.maincolor{
+    background-color: rgb(243, 224, 190);
+}
+
+.pin{
+    background-color: darksalmon;
+}
